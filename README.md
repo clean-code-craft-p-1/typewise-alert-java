@@ -1,10 +1,19 @@
-# Check and Alert based on types
+# Prove and Cover the code
 
-This exercise is based on the [BMS monitoring] domain.
+This project uses Maven and JUnit to build and test.
 
-Expand the checks and alerts to take care of a variety of types.
+[See here](https://maven.apache.org/download.cgi) for download and installation
 
-## Open for Extensions
+[See here](https://maven.apache.org/guides/getting-started/) for details on starting a Maven project.
 
-How can you minimize the amount of work done to add a new type?
-Can you add without modifying existing code?
+[See here](https://github.com/junit-team/junit4/wiki/Assertions) for information on JUnit
+
+## The task
+
+Code coverage is low. Expand the tests to take care of the variations. Track and improve the coverage.
+
+Hint: Test the abstractions, instead of just end-to-end tests.
+
+Uncovered lines indicate an opportunity to write tests.
+
+> Caution: High coverage doesn't indicate no bugs!
